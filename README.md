@@ -3,11 +3,13 @@
 Server infrastructure with Traefik reverse proxy and automatic SSL.
 
 ## Structure
+'''
 server-infra/
 ├── traefik/
 │   ├── docker-compose.yml  — Traefik reverse proxy
 │   ├── .env.example        — Environment template
 └── README.md
+'''
 
 ## Requirements
 - Server with Docker installed
